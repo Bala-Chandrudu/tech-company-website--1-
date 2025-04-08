@@ -139,9 +139,14 @@ export default function Footer() {
             <Link href="/terms" className="hover:text-white">
               Terms of Service
             </Link>
+            
           </div>
         </div>
+        <h1 className="text-right">Developed by Bala Chandrudu Devarakonda</h1>
+        <h1 className="text-right">Information Technology</h1>
+        <h1 className="text-right">Lakireddy Balireddy college of Eng.<br/>Mylavaram</h1>
       </div>
     </footer>
   )
 }
+

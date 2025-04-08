@@ -35,14 +35,14 @@ export default function Home() {
   }
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen ">
       {/* Hero Section */}
       <section className="relative w-full min-h-[80vh] flex flex-col items-center justify-center text-center px-4 py-20 bg-gradient-to-br from-purple-600 via-purple-500 to-purple-700">
         <div className="absolute inset-0 bg-grid-white/[0.05] bg-[size:60px_60px] pointer-events-none" />
         <div className="absolute inset-0 bg-purple-600/40" />
         <div className="absolute inset-0">
           <Image
-            src="/images/hero-background.png"
+            src="/images/bot.jpeg"
             alt="Hero background"
             fill
             className="object-cover mix-blend-overlay opacity-20"
@@ -190,7 +190,7 @@ export default function Home() {
               whileHover={{ y: -5, transition: { duration: 0.2 } }}
             >
               <div className="mb-4 h-40 relative rounded-lg overflow-hidden">
-                <Image src="/images/web-development.png" alt="Web Development" fill className="object-cover" />
+                <Image src="/images/logo1.jpeg" alt="Web Development" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-purple-700">Web Development</h3>
               <p className="text-gray-600">
@@ -206,7 +206,7 @@ export default function Home() {
               whileHover={{ y: -5, transition: { duration: 0.2 } }}
             >
               <div className="mb-4 h-40 relative rounded-lg overflow-hidden">
-                <Image src="/images/mobile-app.png" alt="Mobile Applications" fill className="object-cover" />
+                <Image src="/images/logo2.jpeg" alt="Mobile Applications" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-purple-700">Mobile Applications</h3>
               <p className="text-gray-600">
@@ -222,7 +222,7 @@ export default function Home() {
               whileHover={{ y: -5, transition: { duration: 0.2 } }}
             >
               <div className="mb-4 h-40 relative rounded-lg overflow-hidden">
-                <Image src="/images/cloud-solutions.png" alt="Cloud Solutions" fill className="object-cover" />
+                <Image src="/images/logo3.jpeg" alt="Cloud Solutions" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-purple-700">Cloud Solutions</h3>
               <p className="text-gray-600">
@@ -237,7 +237,7 @@ export default function Home() {
               whileHover={{ y: -5, transition: { duration: 0.2 } }}
             >
               <div className="mb-4 h-40 relative rounded-lg overflow-hidden">
-                <Image src="/images/ui-ux-design.png" alt="UI/UX Design" fill className="object-cover" />
+                <Image src="/images/logo4.jpeg" alt="UI/UX Design" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-purple-700">UI/UX Design</h3>
               <p className="text-gray-600">
@@ -253,7 +253,7 @@ export default function Home() {
               whileHover={{ y: -5, transition: { duration: 0.2 } }}
             >
               <div className="mb-4 h-40 relative rounded-lg overflow-hidden">
-                <Image src="/images/web-development.png" alt="DevOps & CI/CD" fill className="object-cover" />
+                <Image src="/images/logo5.png" alt="DevOps & CI/CD" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-purple-700">DevOps & CI/CD</h3>
               <p className="text-gray-600">
@@ -269,7 +269,7 @@ export default function Home() {
               whileHover={{ y: -5, transition: { duration: 0.2 } }}
             >
               <div className="mb-4 h-40 relative rounded-lg overflow-hidden">
-                <Image src="/images/cloud-solutions.png" alt="Consulting" fill className="object-cover" />
+                <Image src="/images/logo6.jpeg" alt="Consulting" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-purple-700">Consulting</h3>
               <p className="text-gray-600">
